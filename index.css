@@ -64,3 +64,35 @@ li#shipping-cart {
 span {
         color: black;
 }
+div.navbar-nav {
+  display: flex;
+flex-direction: row;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+ul#desk-view {
+  display: none;
+}
+img.d-inline-block.align-text-top {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        left: 83px;
+        top: -30px;
+}
+div#mobile-links {
+        position: absolute;
+        left: 198px;
+        /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 701px) and (max-width: 3000px) {
+  div#mobile-links {
+    display: none;
+  }
+
+}
